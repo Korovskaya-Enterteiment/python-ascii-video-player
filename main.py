@@ -69,12 +69,12 @@ if __name__ == '__main__':
     else:
         path = input('Input path to video file')
 
-    if (sys.argv[2]):
+    if (len(sys.argv) > 2):
         width = sys.argv[2]
     else:
         width = 64
 
-    if (sys.argv[3]):
+    if (len(sys.argv) > 3):
         ascii_string = sys.argv[3]
     else:
         ascii_string = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "[::-1]
