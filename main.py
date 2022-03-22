@@ -64,7 +64,7 @@ def main(path, width, ascii_string):
 
 
 if __name__ == '__main__':
-    if (sys.argv[1]):
+    if (len(sys.argv) > 1):
         path = sys.argv[1]
     else:
         path = input('Input path to video file')
