@@ -89,7 +89,7 @@ if __name__ == '__main__':
         path = path.replace('"', '') # make paths with quotations compatible
 
     if (len(sys.argv) > 2):
-        width = sys.argv[2]
+        width = int(sys.argv[2])
     else:
         width = 64
 
