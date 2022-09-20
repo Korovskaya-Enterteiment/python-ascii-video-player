@@ -1,6 +1,6 @@
 # Python ascii video player
 
-Prototype of [Alexiy Rybin`s](https://github.com/uwury) [ascii.converter](https://github.com/uwury/ascii.converter)
+Prototype of [Alexiy Rybin's](https://github.com/tapnisu) [ascii.converter](https://github.com/tapnisu/ascii.converter)
 
 ## Install
 
